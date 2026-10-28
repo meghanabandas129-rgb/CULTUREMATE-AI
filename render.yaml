@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: culturemate-ai
+    runtime: static
+    buildCommand: echo "CultureMate ready"
+    staticPublishPath: .
